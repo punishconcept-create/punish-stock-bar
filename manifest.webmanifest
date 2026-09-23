@@ -1,19 +1,25 @@
 {
-  "id": "/punish-stock-bar/",
-  "name": "Punish Concept — Stock Bar",
-  "short_name": "Stock Bar",
-  "description": "Gestion du Stock Bar Punish Concept",
-  "start_url": "/punish-stock-bar/",
-  "scope": "/punish-stock-bar/",
+  "name": "Punish Concept — Gestion Événements",
+  "short_name": "Punish Concept",
+  "description": "Gestion des événements Punish Concept",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
-  "display_override": ["standalone"],
-  "background_color": "#000000",
-  "theme_color": "#000000",
+  "background_color": "#050505",
+  "theme_color": "#050505",
   "orientation": "portrait-primary",
   "icons": [
-    {"src":"./icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
-    {"src":"./icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"},
-    {"src":"./icon-maskable-192.png","sizes":"192x192","type":"image/png","purpose":"maskable"},
-    {"src":"./icon-maskable-512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
   ]
 }
